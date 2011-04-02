@@ -33,7 +33,8 @@ public:
 	void setStart(string start);
 	void printStart();
 	
-	string update();
+	string getNextLevel();
+	string getLevel(int level);
 	
 	vector<string> variables;
 	vector<string> constants;

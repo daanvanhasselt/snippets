@@ -75,27 +75,38 @@ void LSys::printStart(){
 	cout << "\t\t\t\t" << start << endl;
 }
 
-string LSys::update(){
-		int length = curString.length();	// length of the current string
+string LSys::getNextLevel(){
+	int length = curString.length();	// length of the current string
 
-		string substr[length];				// split into 1-char substrings
-		for(int i = 0; i < length; i++){
-			substr[i] = curString.substr(i,1);
-		}
+	string substr[length];				// split into 1-char substrings
+	for(int i = 0; i < length; i++){
+		substr[i] = curString.substr(i,1);
+	}
 
-		for(int i = 0; i < length; i++){	// apply all rules
-			for(int j = 0; j < rules.size(); j++){
-				if(substr[i] == rules[j].predecessor){
-					substr[i] = rules[j].successor;
-					j = rules.size();		// if one rule is applied, skip rest of rules
-				}
+	for(int i = 0; i < length; i++){	// apply all rules
+		for(int j = 0; j < rules.size(); j++){
+			if(substr[i] == rules[j].predecessor){
+				substr[i] = rules[j].successor;
+				j = rules.size();		// if one rule is applied, skip rest of rules
 			}
 		}
-		
-		string result;						// merge into resulting string
-		for(int i = 0; i < length; i++){
-			result.append(substr[i]);
-		}
-		curString = result;
+	}
+	
+	string result;						// merge into resulting string
+	for(int i = 0; i < length; i++){
+		result.append(substr[i]);
+	}
+	curString = result;
+
+	level++;
 	return curString;						// return current result
+}
+
+string LSys::getLevel(int _level){
+	curString = start;
+	string result;
+	for(int i = 0; i < _level; i++){
+		result = getNextLevel();
+	}
+	return result;
 }
