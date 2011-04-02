@@ -18,16 +18,13 @@ In your testApp.h, #include "LSystem.h" and declare an LSys object. In testApp.c
 	system.addRule(LRule("F", "F+F-F-F+F"));
 	system.printRules()
 
-Call update() for the result of the next iteration:
+Call getNextLevel() for the result of the next iteration:
 
-	string result = system.update();
+	string result = system.getNextLevel();
 
-Or for example:
+Or to get a specific level of iteration:
 
-	string res;
-	for(int i = 0; i < 6; i++){
-		res = system.update();
-	}
+	string result = system.getLevel(5);
 
 I've also included a simple turtle graphics class, to use this #include "Turtle.h" and declare a Turtle object in your testApp.h. In setup(), call the constructor like this:
 
