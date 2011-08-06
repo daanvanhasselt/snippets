@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		852B121713EC9BE40008F4E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 852B121613EC9BE40008F4E3 /* UIKit.framework */; };
+		852B121913EC9BE40008F4E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 852B121813EC9BE40008F4E3 /* Foundation.framework */; };
+		852B121B13EC9BE40008F4E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 852B121A13EC9BE40008F4E3 /* CoreGraphics.framework */; };
+		852B122113EC9BE40008F4E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 852B121F13EC9BE40008F4E3 /* InfoPlist.strings */; };
+		852B122413EC9BE40008F4E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 852B122313EC9BE40008F4E3 /* main.m */; };
+		852B122713EC9BE40008F4E3 /* CACubeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 852B122613EC9BE40008F4E3 /* CACubeAppDelegate.m */; };
+		852B122A13EC9BE40008F4E3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 852B122813EC9BE40008F4E3 /* MainWindow.xib */; };
+		852B122D13EC9BE40008F4E3 /* CACubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 852B122C13EC9BE40008F4E3 /* CACubeViewController.m */; };
+		852B123013EC9BE40008F4E3 /* CACubeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 852B122E13EC9BE40008F4E3 /* CACubeViewController.xib */; };
+		852B123813EC9C440008F4E3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 852B123713EC9C440008F4E3 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		852B121213EC9BE40008F4E3 /* CACube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CACube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		852B121613EC9BE40008F4E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		852B121813EC9BE40008F4E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		852B121A13EC9BE40008F4E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		852B121E13EC9BE40008F4E3 /* CACube-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CACube-Info.plist"; sourceTree = "<group>"; };
+		852B122013EC9BE40008F4E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		852B122213EC9BE40008F4E3 /* CACube-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CACube-Prefix.pch"; sourceTree = "<group>"; };
+		852B122313EC9BE40008F4E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		852B122513EC9BE40008F4E3 /* CACubeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CACubeAppDelegate.h; sourceTree = "<group>"; };
+		852B122613EC9BE40008F4E3 /* CACubeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CACubeAppDelegate.m; sourceTree = "<group>"; };
+		852B122913EC9BE40008F4E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		852B122B13EC9BE40008F4E3 /* CACubeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CACubeViewController.h; sourceTree = "<group>"; };
+		852B122C13EC9BE40008F4E3 /* CACubeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CACubeViewController.m; sourceTree = "<group>"; };
+		852B122F13EC9BE40008F4E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CACubeViewController.xib; sourceTree = "<group>"; };
+		852B123713EC9C440008F4E3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		852B120F13EC9BE40008F4E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852B123813EC9C440008F4E3 /* QuartzCore.framework in Frameworks */,
+				852B121713EC9BE40008F4E3 /* UIKit.framework in Frameworks */,
+				852B121913EC9BE40008F4E3 /* Foundation.framework in Frameworks */,
+				852B121B13EC9BE40008F4E3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		852B120713EC9BE40008F4E3 = {
+			isa = PBXGroup;
+			children = (
+				852B123713EC9C440008F4E3 /* QuartzCore.framework */,
+				852B121C13EC9BE40008F4E3 /* CACube */,
+				852B121513EC9BE40008F4E3 /* Frameworks */,
+				852B121313EC9BE40008F4E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		852B121313EC9BE40008F4E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				852B121213EC9BE40008F4E3 /* CACube.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		852B121513EC9BE40008F4E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				852B121613EC9BE40008F4E3 /* UIKit.framework */,
+				852B121813EC9BE40008F4E3 /* Foundation.framework */,
+				852B121A13EC9BE40008F4E3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		852B121C13EC9BE40008F4E3 /* CACube */ = {
+			isa = PBXGroup;
+			children = (
+				852B122513EC9BE40008F4E3 /* CACubeAppDelegate.h */,
+				852B122613EC9BE40008F4E3 /* CACubeAppDelegate.m */,
+				852B122B13EC9BE40008F4E3 /* CACubeViewController.h */,
+				852B122C13EC9BE40008F4E3 /* CACubeViewController.m */,
+				852B123613EC9BF50008F4E3 /* Resources */,
+				852B121D13EC9BE40008F4E3 /* Supporting Files */,
+			);
+			path = CACube;
+			sourceTree = "<group>";
+		};
+		852B121D13EC9BE40008F4E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				852B121E13EC9BE40008F4E3 /* CACube-Info.plist */,
+				852B121F13EC9BE40008F4E3 /* InfoPlist.strings */,
+				852B122213EC9BE40008F4E3 /* CACube-Prefix.pch */,
+				852B122313EC9BE40008F4E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		852B123613EC9BF50008F4E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				852B122813EC9BE40008F4E3 /* MainWindow.xib */,
+				852B122E13EC9BE40008F4E3 /* CACubeViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		852B121113EC9BE40008F4E3 /* CACube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 852B123313EC9BE40008F4E3 /* Build configuration list for PBXNativeTarget "CACube" */;
+			buildPhases = (
+				852B120E13EC9BE40008F4E3 /* Sources */,
+				852B120F13EC9BE40008F4E3 /* Frameworks */,
+				852B121013EC9BE40008F4E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CACube;
+			productName = CACube;
+			productReference = 852B121213EC9BE40008F4E3 /* CACube.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		852B120913EC9BE40008F4E3 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 852B120C13EC9BE40008F4E3 /* Build configuration list for PBXProject "CACube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 852B120713EC9BE40008F4E3;
+			productRefGroup = 852B121313EC9BE40008F4E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				852B121113EC9BE40008F4E3 /* CACube */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		852B121013EC9BE40008F4E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852B122113EC9BE40008F4E3 /* InfoPlist.strings in Resources */,
+				852B122A13EC9BE40008F4E3 /* MainWindow.xib in Resources */,
+				852B123013EC9BE40008F4E3 /* CACubeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		852B120E13EC9BE40008F4E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852B122413EC9BE40008F4E3 /* main.m in Sources */,
+				852B122713EC9BE40008F4E3 /* CACubeAppDelegate.m in Sources */,
+				852B122D13EC9BE40008F4E3 /* CACubeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		852B121F13EC9BE40008F4E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				852B122013EC9BE40008F4E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		852B122813EC9BE40008F4E3 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				852B122913EC9BE40008F4E3 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		852B122E13EC9BE40008F4E3 /* CACubeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				852B122F13EC9BE40008F4E3 /* en */,
+			);
+			name = CACubeViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		852B123113EC9BE40008F4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		852B123213EC9BE40008F4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		852B123413EC9BE40008F4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CACube/CACube-Prefix.pch";
+				INFOPLIST_FILE = "CACube/CACube-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		852B123513EC9BE40008F4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CACube/CACube-Prefix.pch";
+				INFOPLIST_FILE = "CACube/CACube-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		852B120C13EC9BE40008F4E3 /* Build configuration list for PBXProject "CACube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				852B123113EC9BE40008F4E3 /* Debug */,
+				852B123213EC9BE40008F4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		852B123313EC9BE40008F4E3 /* Build configuration list for PBXNativeTarget "CACube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				852B123413EC9BE40008F4E3 /* Debug */,
+				852B123513EC9BE40008F4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 852B120913EC9BE40008F4E3 /* Project object */;
+}
