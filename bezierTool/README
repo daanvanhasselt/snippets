@@ -1,0 +1,2 @@
+/* README FILE FOR BEZIERTOOL */
+This is a small application created in Processing (www.processing.org) to simplify the making of custom CAMediaTimingFunctions used in Core Animation. Method call with arguments is automatically copied to clipboard.
