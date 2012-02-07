@@ -1,3 +1,10 @@
+// //////////////////
+// Clipboard class for Processing
+// by seltar, modified by adamohern
+// v 0115AO
+// only works with programs. applets require signing
+// grabbed from http://processing.org/discourse/yabb2/YaBB.pl?num=1274718629/6#6
+
 import java.awt.datatransfer.*;
 import java.awt.Toolkit;
 
