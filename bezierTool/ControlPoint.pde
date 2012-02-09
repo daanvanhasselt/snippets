@@ -14,4 +14,11 @@ class ControlPoint{
     fill(240, 240, 240);
     ellipse(x, y, radius, radius);
   }
+  
+  void setPosition(float _x, float _y){
+//    if(_x > 0 && _x < width)
+      x = _x;
+//    if(_y > 0 && _y < height)
+      y = _y;
+  }
 };
