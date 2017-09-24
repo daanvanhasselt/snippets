@@ -41,6 +41,7 @@ public:
 	vector<LRule> rules;
 	string start;
 	
+protected:
 	int level;
 	string curString;
 };
