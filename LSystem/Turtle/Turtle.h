@@ -17,11 +17,15 @@ class Turtle {
 public:
 	Turtle();
 	Turtle(string forward, string left, string right);
+    void setAngle(float angle);
+    void setLength(float length);
+    
 	void draw(string input, float x, float y, float angle);
 	void moveForward();
 	void turnLeft();
 	void turnRight();
-		
+    
+protected:
 	string forward;
 	string left;
 	string right;

@@ -29,6 +29,14 @@ Turtle::Turtle(string _forward, string _left, string _right){
 	y = ofGetHeight()/2;
 }
 
+void Turtle::setAngle(float _angle) {
+    angle = _angle;
+}
+
+void Turtle::setLength(float _length) {
+    length = _length;
+}
+
 void Turtle::draw(string input, float _x, float _y, float _angle){
 	x = _x;
 	y = _y;
