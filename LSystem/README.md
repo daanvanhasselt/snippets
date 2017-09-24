@@ -3,7 +3,7 @@ LSys is an implementation of an L-system (http://en.wikipedia.org/wiki/L-system)
 
 _Usage_
 
-In your testApp.h, #include "LSystem.h" and declare an LSys object. In testApp.cpp, you can then add variables, constants, rules and set a start-state. For a Koch curve:
+In your testApp.h, `#include "LSystem.h"` and declare an `LSys` object. In testApp.cpp, you can then add variables, constants, rules and set a start-state. For a Koch curve:
 ```
 	system.addVariable("F");
 	system.printVariables();
