@@ -1,7 +1,7 @@
-/----README FILE FOR LSystem----/
+#LSystem
 LSys is an implementation of an L-system (http://en.wikipedia.org/wiki/L-system) made for openFrameworks.
 
-Usage:
+_Usage_
 
 In your testApp.h, #include "LSystem.h" and declare an LSys object. In testApp.cpp, you can then add variables, constants, rules and set a start-state. For a Koch curve:
 ```
