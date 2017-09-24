@@ -1,4 +1,4 @@
-#LSystem
+# LSystem
 LSys is an implementation of an L-system (http://en.wikipedia.org/wiki/L-system) made for openFrameworks.
 
 _Usage_
